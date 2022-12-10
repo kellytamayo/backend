@@ -1,5 +1,5 @@
 from flask import jsonify
-from codes.dao.follows import FollowsDAO
+from dao.follows import FollowsDAO
 
 class FollowsController:
     def build_Follower_dict(self, row):

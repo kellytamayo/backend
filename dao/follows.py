@@ -1,6 +1,6 @@
 from flask import jsonify
 
-from codes.config.dbconfig import pg_config
+from config.dbconfig import pg_config
 import psycopg2
 
 
